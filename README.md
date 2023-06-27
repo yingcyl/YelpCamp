@@ -30,10 +30,12 @@ $ mongosh
 ```
 $ npm install
 ```
-5. And then run the application with
+5. And then run the application with 
 ```
 $ npm start
 ```
+6. Open http://localhost:3000 to view it in your browser.
+
 
 
 # Acknowledgments
