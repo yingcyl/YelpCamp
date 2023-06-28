@@ -39,5 +39,5 @@ $ node app.js
 
 
 # Acknowledgments
--	This project was based on [Colt Steel's Web Development Bootcamp] (https://www.udemy.com/course/the-web-developer-bootcamp/).
+-	This project was based on [Colt Steel's Web Development Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/).
 
