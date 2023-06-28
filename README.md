@@ -16,28 +16,28 @@ MAPBOX_TOKEN=
 DB_URL=
 ```
 
-2. Make sure you have MongoDB installed on your system
+2. Make sure you have MongoDB installed on your system.
 In a terminal window, initialize a MongoDB Database 
 ```
 $ brew services start mongodb-community@6.0
 ```
-3. In a second terminal window, access the MongoDB Database with Mongoose
-```
-$ mongosh
-```
-4. In a third terminal window, install dependencies using npm:
-
+3. In a second terminal window, install dependencies using npm
 ```
 $ npm install
 ```
+4. After installing dependencies, seed database with random campgrounds with 
+```
+$ node seeds/index.js
+```
+
 5. And then run the application with 
 ```
-$ npm start
+$ node app.js
 ```
 6. Open http://localhost:3000 to view it in your browser.
 
 
 
 # Acknowledgments
--	This project was based on Colt Steel's Web Development Bootcamp on Udemy.
+-	This project was based on [Colt Steel's Web Development Bootcamp] (https://www.udemy.com/course/the-web-developer-bootcamp/).
 
